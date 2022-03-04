@@ -1,6 +1,4 @@
-FROM node:17.6.0
-
-LABEL maintainer="abelsan abel@mit.edu"
+FROM node:14-slim
 
 WORKDIR /app
 

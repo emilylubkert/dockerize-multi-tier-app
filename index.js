@@ -3,7 +3,7 @@ var app         = express();
 var MongoClient = require('mongodb').MongoClient;
 
 // the name "mongo" comes from the docker link, in the docker-compose.yml
-var url = 'mongodb://mongo:27017/dockerdemo';
+var url = 'mongodb://db:27017/demodocker'
 var db;
 
 MongoClient.connect(url, function (err, database) {
